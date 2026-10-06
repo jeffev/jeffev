@@ -17,6 +17,8 @@ Senior Software Engineer & Tech Lead with 10+ years building backend systems, AP
 
 All six in one bundle: **[Kairo Complete Kit](https://payhip.com/b/CP8el)** · Store: [payhip.com/ValandroUI](https://payhip.com/ValandroUI)
 
+🆓 **Free:** [Kairo Blocks Lite](https://github.com/jeffev/kairo-blocks-lite), 10 landing page blocks for shadcn/ui, MIT licensed ([live demo](https://kairo-blocks-lite.jeffev123.workers.dev))
+
 #### 📚 E-books (em português, com o código-fonte de um template)
 
 - [Painel Admin Profissional com Next.js 16 e shadcn/ui](https://go.hotmart.com/I107876437M)
