@@ -24,7 +24,6 @@ I'm a software engineer from Brazil with a postgraduate degree in Data Science (
 - **[swing-quant](https://github.com/jeffev/swing-quant)**: quantitative swing-trading system validated with walk-forward and Monte Carlo, plus a [16-year study](https://jeffev.github.io/swing-quant/) on whether it beat simply investing.
 - **[archlens-ai](https://github.com/jeffev/archlens-ai)**: points at a codebase and generates an interactive architecture report with health scores and dependency cycles.
 - **[ai-dev-kit](https://github.com/jeffev/ai-dev-kit)**: spec-driven workflow, quality auditor and hooks to set up AI coding agents in any project.
-- **[promptlab](https://github.com/jeffev/promptlab)**: test your prompts like code.
 - **[kairo-blocks-lite](https://github.com/jeffev/kairo-blocks-lite)**: 10 free landing-page blocks for Next.js 16, Tailwind CSS 4 and shadcn/ui. [Demo](https://kairo-blocks-lite.jeffev123.workers.dev)
 
 ### 📚 Books
