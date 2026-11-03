@@ -1,33 +1,42 @@
-### Hi, I'm Jefferson Valandro 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
+  <img alt="Jefferson Valandro: software engineer, applied AI, data science. 14 years building software. I ship what I build, with a live demo whenever possible." src="assets/banner-light.png">
+</picture>
 
-Senior Software Engineer & Tech Lead with 10+ years building backend systems, APIs and microservices (Java, Spring Boot, Python, React). I also build and sell **production-ready Next.js templates** under the **ValandroUI** brand, and write hands-on e-books for developers.
+I'm a software engineer from Brazil with a postgraduate degree in Data Science (PUC-Rio). I've spent 14 years on backend and full-stack systems for fintech, logistics and education, and these days I bring AI into real products. Almost everything below has a demo you can open right now.
 
-🌐 **Portfolio:** [jeffev.github.io/jeffersonvalandro](https://jeffev.github.io/jeffersonvalandro/) · 💼 [LinkedIn](https://www.linkedin.com/in/jeffersonvalandro) · 📊 [Kaggle](https://www.kaggle.com/jeffersonvalandro)
+**[jeffersonvalandro.com.br](https://jeffersonvalandro.com.br/en/)** · [LinkedIn](https://www.linkedin.com/in/jeffersonvalandro) · [Kaggle](https://www.kaggle.com/jeffersonvalandro) · 🇧🇷 [em português](https://jeffersonvalandro.com.br/)
 
-#### 🧩 ValandroUI templates · Next.js 16 · Tailwind CSS 4 · shadcn/ui
+### 🟢 In production
 
-| Template | What it is | Demo |
-|---|---|---|
-| [Kairo Admin](https://payhip.com/b/kehrf) | Admin dashboard, 23 screens | [live](https://kairo-admin-demo.jeffev123.workers.dev) |
-| [Kairo AI Starter](https://payhip.com/b/ZkP2y) | SaaS starter: auth, AI chat, credits, Stripe | [live](https://kairo-ai-demo.vercel.app) |
-| [Kairo Blocks](https://payhip.com/b/gD6od) | 61 landing-page blocks | [live](https://kairo-blocks-demo.jeffev123.workers.dev) |
-| [Kairo Estate](https://payhip.com/b/71AJn) | Real-estate website with map and URL filters | [live](https://kairo-estate-demo.jeffev123.workers.dev) |
-| [Kairo Mail](https://payhip.com/b/71tTH) | 32 React Email templates | [live](https://kairo-mail-demo.jeffev123.workers.dev) |
-| [Kairo Studio](https://payhip.com/b/KwUv8) | Agency & portfolio website | [live](https://kairo-studio-demo.jeffev123.workers.dev) |
+| Project | What it does | Stack | |
+|---|---|---|---|
+| **Lastro** | CRM for real estate agencies. An AI assistant proposes actions and the agent confirms them. | FastAPI · PostgreSQL (RLS) · React PWA · Claude | [demo](https://lastro.jeffersonvalandro.com.br) |
+| **[InvestLink](https://github.com/jeffev/Investlink)** | Stock and REIT screener for the Brazilian market with an explainable score, built on audited CVM filings. | Flask · React · PostgreSQL · pandas | [demo](https://investlink.jeffersonvalandro.com.br) |
+| **InvestLink MCP** | MCP server with RAG (pgvector + EmbeddingGemma on CPU) and read-only SQL. The demo shows every tool call live. | Python · MCP · pgvector · Gemini | [demo](https://investlink.jeffersonvalandro.com.br/mcp-demo/en) |
+| **Vizion** | BI without SQL: ask in plain language, get charts and dashboards grounded in real queries. | Next.js · FastAPI · DuckDB · Claude | [demo](https://vizion.jeffersonvalandro.com.br) |
+| **[ARIA](https://github.com/jeffev/aria)** | Personal assistant that turns text or voice into events, tasks and notes through function calling. | Next.js · Prisma · Gemini · PWA | [demo](https://aria.jeffersonvalandro.com.br) |
+| **[Tradelink](https://github.com/jeffev/tradelink)** | Trade journal and multi-indicator backtesting engine with an async job queue. | React · NestJS · FastAPI · BullMQ | [demo](https://tradelink.jeffersonvalandro.com.br) |
 
-All six in one bundle: **[Kairo Complete Kit](https://payhip.com/b/CP8el)** · Store: [payhip.com/ValandroUI](https://payhip.com/ValandroUI)
+### 🧪 Open source
 
-🆓 **Free:** [Kairo Blocks Lite](https://github.com/jeffev/kairo-blocks-lite), 10 landing page blocks for shadcn/ui, MIT licensed ([live demo](https://kairo-blocks-lite.jeffev123.workers.dev))
+- **[hollowtest](https://github.com/jeffev/hollowtest)**: finds tests that pass even when the code is broken (no assertions, `toBeNull` without `()`, asserts that only run in `catch`, unawaited `.resolves`). JS, TS and Python, on [npm](https://www.npmjs.com/package/hollowtest), with an ESLint plugin and a Claude Code plugin. [Try it in the browser →](https://jeffev.github.io/hollowtest/)
+- **[swing-quant](https://github.com/jeffev/swing-quant)**: quantitative swing-trading system validated with walk-forward and Monte Carlo, plus a [16-year study](https://jeffev.github.io/swing-quant/) on whether it beat simply investing.
+- **[archlens-ai](https://github.com/jeffev/archlens-ai)**: points at a codebase and generates an interactive architecture report with health scores and dependency cycles.
+- **[ai-dev-kit](https://github.com/jeffev/ai-dev-kit)**: spec-driven workflow, quality auditor and hooks to set up AI coding agents in any project.
+- **[promptlab](https://github.com/jeffev/promptlab)**: test your prompts like code.
+- **[kairo-blocks-lite](https://github.com/jeffev/kairo-blocks-lite)**: 10 free landing-page blocks for Next.js 16, Tailwind CSS 4 and shadcn/ui. [Demo](https://kairo-blocks-lite.jeffev123.workers.dev)
 
-#### 📚 E-books (em português, com o código-fonte de um template)
+### 📚 Books
 
-- [Painel Admin Profissional com Next.js 16 e shadcn/ui](https://go.hotmart.com/I107876437M)
-- [SaaS com IA do Zero: Next.js 16, Claude e Stripe](https://go.hotmart.com/Y107877709N)
-- [Landing Pages que Vendem](https://go.hotmart.com/P107879453E)
-- [Site de Imobiliária com Next.js](https://go.hotmart.com/Y107879665G)
-- [Portfólio que Atrai Clientes](https://go.hotmart.com/K107879932Q)
+- **[Artificial Intelligence from the Inside](https://www.amazon.com/dp/B0HNR1GLTG)**: from predictive systems to LLMs and Transformers. Paperback on Amazon, also [in Portuguese on Kindle](https://www.amazon.com.br/dp/B0HNRQNJYL).
+- **[How to Pass Developer Interviews](https://www.amazon.com/dp/B0HNRC5JSP)**: from the résumé to the offer. Paperback on Amazon.
+- Free PDFs, including *Your First MCP Server* and a children's book on how AI works: [jeffersonvalandro.com.br/en/books](https://jeffersonvalandro.com.br/en/books/)
 
-#### 🔬 Open-source & studies
+### 🧩 Templates
 
-- [swing-quant](https://github.com/jeffev/swing-quant): quantitative swing-trading system and a 16-year study on whether it beat investing ([read the study](https://jeffev.github.io/swing-quant/))
-- [archlens-ai](https://github.com/jeffev/archlens-ai) · [ai-dev-kit](https://github.com/jeffev/ai-dev-kit) · [ghost-doc](https://github.com/jeffev/ghost-doc) · [Investlink](https://github.com/jeffev/Investlink)
+Production-ready Next.js 16 + Tailwind CSS 4 + shadcn/ui templates under the **ValandroUI** name: an admin dashboard, an AI SaaS starter, invoicing, booking, directory, real estate and more, each with a live demo. [See them all →](https://jeffersonvalandro.com.br/en/products/)
+
+---
+
+<sub>Java · Spring Boot · Python · FastAPI · TypeScript · React · Next.js · PostgreSQL · Docker · LLMs (Claude, Gemini) · RAG · MCP</sub>
